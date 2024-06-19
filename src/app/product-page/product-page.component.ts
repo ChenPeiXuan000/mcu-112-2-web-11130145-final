@@ -14,16 +14,16 @@ import { ProductService } from './../services/product.service';
 export class ProductPageComponent implements OnInit {
   router = inject(Router);
 
-  private ProductService = inject(ProductService);
+  private productService = inject(ProductService);
 
   products!: Product[];
 
   ngOnInit(): void {
-    this.products = this.ProductService.getList();
+    this.products = this.productService.getList();
   }
 
   onView(product: Product): void {
-    const productName = product.name.replace(/ /g, '_');
-    this.router.navigate(['product', productName]);
+    console.log('view');
+    this.router.navigate(['product', 'view', product.id]);
   }
 }

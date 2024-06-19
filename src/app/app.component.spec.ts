@@ -17,7 +17,7 @@ describe('AppComponent', () => {
   it(`should have the 'mcu-112-2-web-11130145-final' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('mcu-112-2-web-11130145-final');
+    expect(app).toEqual('mcu-112-2-web-11130145-final');
   });
 
   it('should render title', () => {

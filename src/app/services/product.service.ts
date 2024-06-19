@@ -7,6 +7,7 @@ import { Product } from '../model/product';
 export class ProductService {
   private _data = [
     new Product({
+      id: 1,
       name: 'A 產品',
       authors: ['作者A、作者B、作者C'],
       company: '博碩文化',
@@ -14,6 +15,7 @@ export class ProductService {
       price: 1580,
     }),
     new Product({
+      id: 2,
       name: 'B 產品',
       authors: ['作者A、作者B、作者C'],
       company: '博碩文化',
@@ -21,6 +23,7 @@ export class ProductService {
       price: 1580,
     }),
     new Product({
+      id: 3,
       name: 'C 產品',
       authors: ['作者A、作者B、作者C'],
       company: '博碩文化',
@@ -28,6 +31,7 @@ export class ProductService {
       price: 1580,
     }),
     new Product({
+      id: 4,
       name: 'D 產品',
       authors: ['作者A、作者B、作者C'],
       company: '博碩文化',
@@ -35,6 +39,10 @@ export class ProductService {
       price: 1580,
     }),
   ];
+
+  getById(productId: number): Product {
+    return this._data.find(({ id }) => id === productId)!;
+  }
 
   getList(): Product[] {
     return this._data;

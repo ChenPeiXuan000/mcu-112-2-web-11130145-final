@@ -9,7 +9,7 @@ import { Component, EventEmitter, HostBinding, Input, Output, numberAttribute } 
   styleUrl: './product-card.component.css',
 })
 export class ProductCardComponent {
-  @Input() id!: number;
+  @Input({ transform: numberAttribute }) id!: number;
   @Input() productName!: string;
   @Input() authors!: string[];
   @Input() company!: string;
