@@ -11,6 +11,78 @@
       "company": "博碩文化",
       "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
       "price": 10000
+    },
+    {
+      "name": "B 書籍",
+      "authors": [
+        "作者A",
+        "作者B",
+        "作者C"
+      ],
+      "company": "博碩文化",
+      "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "price": 10000,
+      "id": 2
+    },
+    {
+      "name": "C 書籍",
+      "authors": [
+        "作者A",
+        "作者B",
+        "作者C"
+      ],
+      "company": "博碩文化",
+      "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "price": 10000,
+      "id": 3
+    },
+    {
+      "name": "D 書籍",
+      "authors": [
+        "作者A",
+        "作者B",
+        "作者C"
+      ],
+      "company": "博碩文化",
+      "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "price": 10000,
+      "id": 4
+    },
+    {
+      "name": "E 書籍",
+      "authors": [
+        "作者A",
+        "作者B",
+        "作者C"
+      ],
+      "company": "博碩文化",
+      "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "price": 10000,
+      "id": 5
+    },
+    {
+      "name": "F 書籍",
+      "authors": [
+        "作者A",
+        "作者B",
+        "作者C"
+      ],
+      "company": "博碩文化",
+      "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "price": 10000,
+      "id": 6
+    },
+    {
+      "name": "G 書籍",
+      "authors": [
+        "作者A",
+        "作者B",
+        "作者C"
+      ],
+      "company": "博碩文化",
+      "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
+      "price": 10000,
+      "id": 7
     }
   ]
 }
